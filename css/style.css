@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+/*margin for section*/
+#pillars ,#vision ,#opinion,#news,#donate,#subscribe,footer{
+    margin-top: 80px;
+}
+
+/*Initial style use anywhere*/
+.bc-card-white{
+    background-color: white;
+}
+.bc-blue-card{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.bc-blue-btn{
+    background-color: rgba(84, 144, 245, 1);
+    color: white;
+}
+.bc-green-card{
+    background-color: #C6E4D6;
+}
+.bc-green-btn{
+    background-color: #09A15C;
+    color: white;
+}
+.bc-yellow-card{
+    background-color: #F7EBCF;
+}
+.bc-yellow-btn{
+    background-color: #FFC239;
+    color: white;
+}
+
+
+
+/*default button style*/
+.btn{
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin: 24px 0;
+    width: fit-content;
+}
+.container{
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.card{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.card img{
+    margin-bottom: 24px;
+    max-width: 64px;
+}
+.card h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.card p{
+    font-size: 16px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+/*Header styling start*/
+header .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-container h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+header .header-container button{
+    border: 1px solid #006A50;
+}
+
+/*main part start*/
+/*banner-hero section start*/
+main{
+    margin-top: 20px;
+}
+#banner{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+#banner .banner-detail h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+#banner .banner-detail h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+#banner .banner-detail button{
+    background-color: #006A50;
+    color: white;
+}
+/*banner-hero section end*/
+
+/*pillars of bangladesh*/
+
+.pillars-tittle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+
+.pillars-of-bd-parent .card-parent{
+    display: flex;
+    gap: 24px;
+}
+
+/*vision */
+#vision .vision-header{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+#vision p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+#vision .vision-card{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+#vision .vision-card .card{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#vision .vision-card .card img{
+    max-width: 64px;
+}
+#vision .vision-qoute{
+    padding: 48px 24px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    position:relative;
+
+}
+#vision .vision-qoute p{
+    margin-bottom: 12px;
+}
+#vision .vision-qoute h2{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 4px;
+    color: rgba(14, 14, 14, 0.8);
+}
+#vision .vision-qoute .fa-quote-left{
+    color: rgba(14, 14, 14, 0.15);
+    font-size: 64px;
+    position: absolute;
+    top: 23px;
+    left: 13px;
+}
+
+/*Opinion*/
+#opinion .form-tittle{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+#opinion form{
+    padding: 32px;
+}
+#opinion form .form-header{
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+#opinion form .form-header h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+#opinion form .form-question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding-left: 24px;
+}
+#opinion form .form-question p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+#opinion form .form-question .select{
+    border-left: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+#opinion form .form-question .select .select-option{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    padding-right: 10px;
+    border: 1px solid #0E0E0E;
+}
+#opinion form .form-question .select select{
+    border: none;
+    padding: 0 10px 0 0;
+    background-color: transparent;
+}
+
+/*News*/
+#news h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+#news p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+#news .news-card{
+    background-color: white;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+#news .news-card .news-card-image img{
+    border-radius: 24px;
+    max-width: 408px;
+}
+#news .news-card .news-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#news .news-card .news-card-content h2{
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+#news .news-card .news-card-content img{
+    margin-bottom: 12px;
+    max-width: 120px;
+}
+#news .news-card .news-card-content p{
+    font-size: 16px;
+    font-weight: 400;
+    flex: 1;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+}
+#news .news-card .news-card-content .btn{
+    margin-bottom: 0;
+}
+#news .news-card:nth-child(4){
+    flex-direction: row-reverse;
+}
+
+/*donate part*/
+#donate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#donate h2{
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+#donate p{
+    padding: 0 88px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
+}
+#donate .donate-card{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+#donate .donate-card .card{
+    align-items: center;
+    flex: none;
+}
+#donate .donate-card h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 0;
+}
+#donate input{
+    padding: 20px 388px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 32px;
+}
+#donate button{
+    margin-bottom: 0;
+}
+
+/*subscribe*/
+#subscribe{
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#subscribe h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+#subscribe p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    max-width: 622px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+#subscribe .subscribe-btn input{
+    padding: 18px 403px 18px 40px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#subscribe .subscribe-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+#subscribe .subscribe-btn button{
+    border-radius: 0px 8px 8px 0;
+}
+
+/*footer */
+footer{
+    padding: 50px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+footer h2{
+    font-size: 32px;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+footer .line{
+    width: 1122px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-bottom: 32px;
+}
+footer .footer-icon{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
